@@ -81,7 +81,7 @@ body {
     border-radius: 50%;
     height: fit-content;
     margin: 20px;
-    animation: spinAnimate 25s ease-in 0s infinite normal;
+    animation: spinAnimate 10s ease-in 0s infinite normal;
 }
 
 @keyframes spinAnimate {

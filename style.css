@@ -1,0 +1,93 @@
+*{
+    margin: auto;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.wish1 {
+    font-weight: BOLDER;
+    font-size: 50PX;
+    padding: 50px;
+    color:red;
+    animation: spinAnimation 2s ease-in-out 0s infinite normal;
+}
+
+@keyframes spinAnimation {
+    from {
+        transform: translate(-300px);
+    }
+    to {
+        transform: translate(300px);
+    }
+}
+
+.wish2 {
+    font-weight: BOLDER;
+    font-size: 50PX;
+    padding: 50px;
+    color: orange;
+    animation: spinAnimation2 2s ease-in-out 0s infinite normal;
+}
+
+@keyframes spinAnimation2 {
+    from {
+        transform: translate(300px);
+    }
+    to {
+        transform: translate(-300px);
+    }
+}
+
+.wish3 {
+    font-weight: BOLDER;
+    font-size: 50PX;
+    padding: 50px;
+    color: rgb(235, 96, 119);
+    animation: spinAnimation3 2s ease-in-out 0s infinite normal;
+}
+
+@keyframes spinAnimation3 {
+    from {
+        transform: translate(-300px);
+    }
+    to {
+        transform: translate(300px);
+    }
+}
+
+
+.wish4 {
+    font-weight: BOLDER;
+    font-size: 50PX;
+    padding: 50px;
+    color: rgb(119, 16, 16);
+    animation: spinAnimation4 2s ease-in-out 0s infinite normal;
+}
+
+@keyframes spinAnimation4 {
+    from {
+        transform: translate(300px);
+    }
+    to {
+        transform: translate(-300px);
+    }
+}
+
+body {
+    border-top: 10px solid red;
+    border-bottom: 10px solid orange;
+    border-left: 10px solid rgb(234, 140, 0);
+    border-right: 10px solid rgb(137, 59, 72);
+    border-radius: 50%;
+    margin: 20px;
+    animation: spinAnimate 25s ease-in 0s infinite normal;
+}
+
+@keyframes spinAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

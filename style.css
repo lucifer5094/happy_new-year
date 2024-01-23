@@ -96,11 +96,11 @@ body {
     animation: spinAnimate 6s ease-in 0s infinite normal;
 }
 
-@keyframes spinAnimate {
+/* @keyframes spinAnimate {
     from {
         transform: rotate(0deg);
     }
     to {
         transform: rotate(360deg);
     }
-}
+} */

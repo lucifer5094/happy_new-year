@@ -73,7 +73,7 @@
     animation: spinAnimation4 2s ease-in-out 0s infinite normal;
 }
 
-@keyframes spinAnimation4 {
+/* @keyframes spinAnimation4 {
     0% {
         transform : translate(300px)
     }
@@ -83,7 +83,7 @@
     100% {
         transform : translate(300px)
     }
-}
+}  */
 
 body {
     border-top: 10px solid red;

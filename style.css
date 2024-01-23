@@ -13,11 +13,14 @@
 }
 
 @keyframes spinAnimation {
-    from {
-        transform: translate(-300px);
+    0% {
+        transform : translate(-300px)
     }
-    to {
-        transform: translate(300px);
+    50% {
+        transform : translate(300px)
+    }
+    100% {
+        transform : translate(-300px)
     }
 }
 
@@ -30,11 +33,14 @@
 }
 
 @keyframes spinAnimation2 {
-    from {
-        transform: translate(300px);
+    0% {
+        transform : translate(300px)
     }
-    to {
-        transform: translate(-300px);
+    50% {
+        transform : translate(-300px)
+    }
+    100% {
+        transform : translate(300px)
     }
 }
 
@@ -47,11 +53,14 @@
 }
 
 @keyframes spinAnimation3 {
-    from {
-        transform: translate(-300px);
+    0% {
+        transform : translate(-300px)
     }
-    to {
-        transform: translate(300px);
+    50% {
+        transform : translate(300px)
+    }
+    100% {
+        transform : translate(-300px)
     }
 }
 
@@ -65,11 +74,14 @@
 }
 
 @keyframes spinAnimation4 {
-    from {
-        transform: translate(300px);
+    0% {
+        transform : translate(300px)
     }
-    to {
-        transform: translate(-300px);
+    50% {
+        transform : translate(-300px)
+    }
+    100% {
+        transform : translate(300px)
     }
 }
 
